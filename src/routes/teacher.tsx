@@ -64,7 +64,7 @@ function Teacher() {
                   <input value={drafts[w.id] ?? ""} onChange={(e) => setDrafts((d) => ({ ...d, [w.id]: e.target.value }))}
                     placeholder="…or paste an authorized image URL" className="min-w-0 flex-1 rounded border border-input bg-background px-3 py-2 text-sm" />
                   <button className="btn-ghost-museum text-sm" disabled={!drafts[w.id]}
-                    onClick={() => { writeOverride(w.id, drafts[w.id].trim()); setDrafts((d) => ({ ...d, [w.id]: "" })); }}>Save URL</button>
+                    onClick={() => { writeOverride(w.id, (drafts[w.id] ?? "").trim()); setDrafts((d) => ({ ...d, [w.id]: "" })); }}>Save URL</button>
                   {custom && <button className="text-sm underline" onClick={() => writeOverride(w.id, null)}>Reset</button>}
                 </div>
               </div>
