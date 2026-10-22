@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useCallback } from "react";
 import { ARTWORKS } from "@/game/artworks";
 import { useArtworkImages } from "@/game/images";
@@ -80,13 +80,12 @@ function Game() {
                     <ul className="mt-2 list-disc pl-5">
                       {problems.map((w) => <li key={w.id}>{w.title} ({w.artist}) — {status[w.id] === "error" ? "image failed to load" : "no image set"}</li>)}
                     </ul>
-                    <p className="mt-2">Teacher: add the authorized images in <Link to="/teacher" className="font-semibold underline">Teacher Image Setup</Link>.</p>
+                    <p className="mt-2">Please check your internet connection and refresh the page.</p>
                   </>
                 )}
               </div>
             )}
           </div>
-          <Link to="/teacher" className="mt-6 inline-block text-sm text-muted-foreground underline">Teacher image setup</Link>
         </div>
       </main>
     );
