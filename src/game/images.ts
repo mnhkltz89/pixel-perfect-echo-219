@@ -1,17 +1,6 @@
 import { useEffect, useState } from "react";
 import { ARTWORKS } from "./artworks";
 
-const KEY = "curator-images-v1";
-type Overrides = Record<string, string>;
-
-export function readOverrides(): Overrides {
-  try { return JSON.parse(localStorage.getItem(KEY) || "{}"); } catch { return {}; }
-}
-export function writeOverride(id: string, url: string | null) {
-    if (url) o[id] = url; else delete o[id];
-  localStorage.setItem(KEY, JSON.stringify(o));
-  window.dispatchEvent(new Event("curator-images"));
-}
 
 export type ImgStatus = "missing" | "loading" | "ok" | "error";
 
