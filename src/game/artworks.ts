@@ -28,7 +28,7 @@ export const ARTWORKS: Artwork[] = [
     feature: "Melting clocks across a strange, silent landscape.",
     label: "Soft clocks appear in an impossible landscape, challenging our ordinary understanding of time.",
     feedback: "Melting clocks are impossible in real life — a classic example of dream logic.",
-    defaultImage: null, credit: "The Museum of Modern Art, New York. © Salvador Dalí, Fundació Gala-Salvador Dalí.",
+    defaultImage: "https://www.moma.org/media/W1siZiIsIjYxOTY1OSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=ef9155183ab6bba1", credit: "The Museum of Modern Art, New York. © Salvador Dalí, Fundació Gala-Salvador Dalí.",
   },
   {
     id: "S2", title: "The Menaced Assassin", artist: "René Magritte", year: 1927, movement: "S",
@@ -36,7 +36,7 @@ export const ARTWORKS: Artwork[] = [
     feature: "A mysterious interior scene with strangely arranged characters and an unsettling narrative.",
     label: "An apparently ordinary room becomes an unsettling, mysterious scene that follows dreamlike logic.",
     feedback: "Magritte makes ordinary things feel strange — the story makes no logical sense, like a dream.",
-    defaultImage: null, credit: "The Museum of Modern Art, New York. © C. Herscovici / Magritte estate.",
+    defaultImage: "https://www.moma.org/media/W1siZiIsIjI2MzUzMCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=3718a7720d5a010a", credit: "The Museum of Modern Art, New York. © C. Herscovici / Magritte estate.",
   },
   {
     id: "S3", title: "Celebes", artist: "Max Ernst", year: 1921, movement: "S",
@@ -44,7 +44,7 @@ export const ARTWORKS: Artwork[] = [
     feature: "An enormous mechanical, elephant-like creature in an unusual setting.",
     label: "An impossible machine-like creature combines familiar and unfamiliar forms in a dreamlike world.",
     feedback: "Combining an animal with a machine creates an unexpected, impossible reality.",
-    defaultImage: null, credit: "Tate, London. © Max Ernst estate.",
+    defaultImage: "https://upload.wikimedia.org/wikipedia/en/2/2b/The_Elephant_Celebes.jpg", credit: "Tate, London. © Max Ernst estate.",
   },
   {
     id: "S4", title: "The Birth of the World", artist: "Joan Miró", year: 1925, movement: "S",
@@ -52,7 +52,7 @@ export const ARTWORKS: Artwork[] = [
     feature: "Floating shapes, expressive marks, and unexpected combinations.",
     label: "Unexpected shapes and spontaneous-looking paint effects reflect imagination and unconscious creative processes.",
     feedback: "Miró used spontaneous, 'automatic' techniques to let the unconscious mind guide the painting.",
-    defaultImage: null, credit: "The Museum of Modern Art, New York. © Successió Miró.",
+    defaultImage: "https://www.moma.org/media/W1siZiIsIjQzODQ1MSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=ed4f7481004a91eb", credit: "The Museum of Modern Art, New York. © Successió Miró.",
   },
   {
     id: "S5", title: "Green Tea", artist: "Leonora Carrington", year: 1942, movement: "S",
@@ -60,7 +60,7 @@ export const ARTWORKS: Artwork[] = [
     feature: "A strange human-like figure, a white horse, and a symbolic, unsettling landscape.",
     label: "Unusual figures and symbolic imagery create a mysterious scene suggesting inner experiences and dreams.",
     feedback: "Carrington's symbolic figures express inner experiences — a key Surrealist idea.",
-    defaultImage: null, credit: "The Museum of Modern Art, New York. © Estate of Leonora Carrington.",
+    defaultImage: "https://www.moma.org/media/W1siZiIsIjQ1MDk1NCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=f31b807c38282370", credit: "The Museum of Modern Art, New York. © Estate of Leonora Carrington.",
   },
   {
     id: "I1", title: "Impression, Sunrise", artist: "Claude Monet", year: 1872, movement: "I",
